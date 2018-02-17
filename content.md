@@ -7,9 +7,7 @@ We are currently meeting two times a week. The first 10-15 minutes we talk about
 Saturdays 10am-12pm
 
 ### WHERE:
-Cafe Kopi
-109 N Walnut St, Champaign, IL 61820
-[google maps link]
+[Cafe Kopi 109 N Walnut St, Champaign, IL 61820](https://www.google.com/maps/place/109+N+Walnut+St,+Champaign,+IL+61820/@40.1168129,-88.2449414,17z)
 
 ---
 
@@ -17,9 +15,7 @@ Cafe Kopi
 Thursdays 6pm-8pm
 
 ### WHERE:
-Champaign Public Library
-200 W Green St, Champaign, IL 61820
-[google maps link]
+[Champaign Public Library 200 W Green St, Champaign, IL 61820](https://www.google.com/maps/place/200+W+Green+St,+Champaign,+IL+61820/@40.1103471,-88.2480481,17z)
 
 ## Project showcase
 Showcase of projects of both the group and also individuals in the group who want to share things that they have accomplished or are currently working on.
