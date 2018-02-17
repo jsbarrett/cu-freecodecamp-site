@@ -2,15 +2,7 @@
 A simple site to promote and showcase the projects that we do in the Champaign-Urbana FreeCodeCamp group.
 
 ## Content
-Meeting times
-
-Showcase of projects of both the group and also individuals in the group who want to share things that they have accomplished or are currently working on.
-
-Collection of softwares/technologies that individuals within the group feel confident in using, so if new people are curious if they can get help about something they will have an idea if anyone in our group will be able to assist.
-
-Collection of softwares/technologies that we as a group are intending to learn together in order to grow as developers.
-
-Links to Facebook group, Facebook event(s), and Slack channel (?)
+(find content in the content.md file)
 
 ## Design
 (recommendation) A very common look/feel these days is the Material Design as written by Google. A component library for the web that implements many basic web components with a material design that fits the exact specification can be found here:
