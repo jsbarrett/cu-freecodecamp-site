@@ -25,31 +25,31 @@ Showcase of projects of both the group and also individuals in the group who wan
 
 ## Tech experience
 Collection of softwares/technologies that individuals within the group feel confident in using, so if new people are curious if they can get help about something they will have an idea if anyone in our group will be able to assist.
-HTML5
-CSS3
-Javascript ES5, ES6
-Python
-Ruby
-Git
-Linux
-bash
-zsh
-Readline
-Vim/NeoVim
-Tmux
-Apache
-MySQL
-SQLite
-PHP
-Node.js
-Express.js
-Nginx
-PostgreSQL
-React.js
-AngularJS v1.x
-Vue.js
-jQuery
-Vagrant
+- HTML5
+- CSS3
+- Javascript ES5, ES6
+- Python
+- Ruby
+- Git
+- Linux
+- bash
+- zsh
+- Readline
+- Vim/NeoVim
+- Tmux
+- Apache
+- MySQL
+- SQLite
+- PHP
+- Node.js
+- Express.js
+- Nginx
+- PostgreSQL
+- React.js
+- AngularJS v1.x
+- Vue.js
+- jQuery
+- Vagrant
 
 ## Tech goals
 Collection of softwares/technologies that we as a group are intending to learn together in order to grow as developers.
