@@ -6,6 +6,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <link rel='stylesheet' href='styles/MenuBar.css' />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   </head>
 
   <body>
@@ -24,15 +25,123 @@
 
           <div id='menu'>
             <ul>
-              <li>Item 1</li>
-              <li>Item 2</li>
-              <li>Item 3</li>
-              <li>Item 4</li>
+              <li>Meeting Times</li>
+              <li>Project Showcase</li>
+              <li>Tech Experience</li>
+              <li>Tech Goals</li>
+              <li>Social Site Links</li>
             </ul>
           </div>
 
       </div>
     </nav>
+
+
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    .page-content {
+      margin: auto;
+      margin-top: 100px;
+      max-width: 1000px;
+    }
+    .page-section {
+      margin: 1em 0;
+      box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+      padding: 2em;
+    }
+    .tech-experience__list {
+      list-style: none;
+      font-size: 4em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .meeting-time {
+      width: 20vw;
+      height: 4em;
+      background-color: blue;
+    }
+    </style>
+    <div class="page-content">
+
+      <div class="meeting-times page-section">
+        <h1>Meeting Times</h1>
+        <div>We are currently meeting two times a week.
+        The first 10-15 minutes we talk about group projects that we are working on as part of this group,
+        and then it opens up to be more free and open for people
+        to talk and share and ask questions or ask for help.</div>
+
+        <div class="meeting-time-container">
+          <div class="meeting-time">
+            <div class="meeting-times__time">
+              Saturdays 10am-12pm
+            </div>
+            <div class="meeting-times__address">
+              Cafe Kopi 109 N Walnut St, Champaign, IL 61820
+            </div>
+          </div>
+
+          <div class="meeting-time">
+            <div class="meeting-times__time">
+              Thursdays 6pm-8pm
+            </div>
+            <div class="meeting-times__address">
+              Champaign Public Library 200 W Greent Street Champaign, IL 61820
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-showcase page-section">
+        <h1>Project Showcase</h1>
+        Showcase of projects of both the group and also individuals in the group who want to share things that they have accomplished or are currently working on. [this site] [drag-and-drop app] [practice-hearing app]
+      </div>
+
+      <div class="tech-experience page-section">
+        <h1>Tech Experience</h1>
+        <span>Collection of softwares/technologies that individuals within the group feel confident in using, so if new people are curious if they can get help about something they will have an idea if anyone in our group will be able to assist.</span>
+
+        <ul class="tech-experience__list">
+          <li><i class="fab fa-html5"></i></li>
+          <li><i class="fab fa-css3-alt"></i></li>
+          <li><i class="fab fa-js"></i></li>
+          <li><i class="fab fa-python"></i></li>
+          <li><i class="fab fa-github"></i></li>
+          <li><i class="fab fa-linux"></i></li>
+          <li><i class="fab fa-php"></i></li>
+          <li><i class="fab fa-node"></i></li>
+          <li><i class="fab fa-react"></i></li>
+          <li><i class="fab fa-angular"></i></li>
+          <li><i class="fab fa-vuejs"></i></li>
+          <li>Ruby</li>
+          <li>bash</li>
+          <li>zsh</li>
+          <li>Readline</li>
+          <li>Vim/NeoVim</li>
+          <li>Tmux</li>
+          <li>Apache</li>
+          <li>MySQL</li>
+          <li>SQLite</li>
+          <li>Express.js</li>
+          <li>Nginx</li>
+          <li>PostgreSQL</li>
+          <li>jQuery</li>
+          <li>Vagrant</li>
+        </ul>
+      </div>
+
+      <div class="tech-goals page-section">
+        <h1>Tech Goals</h1>
+        <span>Collection of softwares/technologies that we as a group are intending to learn together in order to grow as developers. Javascript Git/Github Backend development (server setup and security and configuration) Firebase Redux/Vuex Native app development using React Native</span>
+      </div>
+
+      <div class="social-site-links page-section">
+        <h1>Social Site Links</h1>
+        <span>Links to Facebook group, Facebook event(s), and Slack channel (?)</span>
+      </div>
+    </div>
 
     <!-- Menu Bar Functionality -->
     <script type='text/javascript' src='scripts/MenuBar.js'></script>
