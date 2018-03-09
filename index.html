@@ -46,6 +46,12 @@
       margin-top: 100px;
       max-width: 1000px;
     }
+    @media only screen and (max-width: 600px) {
+      .page-content {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
     .page-section {
       margin: 1em 0;
       box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
@@ -59,9 +65,12 @@
       justify-content: space-between;
     }
     .meeting-time {
-      width: 20vw;
-      height: 4em;
-      background-color: blue;
+      width: 400px;
+      min-height: 4em;
+    }
+    .meeting-time-container {
+      display: flex;
+      justify-content: space-between;
     }
     </style>
     <div class="page-content">
@@ -73,23 +82,31 @@
         and then it opens up to be more free and open for people
         to talk and share and ask questions or ask for help.</div>
 
-        <div class="meeting-time-container">
+        <div class="meeting-time-container" style="margin-top: 2em;">
           <div class="meeting-time">
             <div class="meeting-times__time">
-              Saturdays 10am-12pm
+              <h2>WHEN</h2>
+              Thursdays 6pm-8pm
             </div>
             <div class="meeting-times__address">
-              Cafe Kopi 109 N Walnut St, Champaign, IL 61820
+              <h2>WHERE</h2>
+              Champaign Public Library<br>
+              200 W Greent Street Champaign, IL 61820
             </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.336687649389!2d-88.22910588409373!3d40.11249967940167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd76a968358b5%3A0xae7c7d5e32439ec2!2sGrainger+Engineering+Library+Information+Center!5e0!3m2!1sen!2sus!4v1520572461950" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
 
           <div class="meeting-time">
             <div class="meeting-times__time">
-              Thursdays 6pm-8pm
+              <h2>WHEN</h2>
+              Saturdays 10am-12pm
             </div>
             <div class="meeting-times__address">
-              Champaign Public Library 200 W Greent Street Champaign, IL 61820
+              <h2>WHERE</h2>
+              Cafe Kopi<br>
+              109 N Walnut St, Champaign, IL 61820
             </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.14480748638!2d-88.24482518409361!3d40.11677627940113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd74c7430ce11%3A0x71eff93a6bd3b7a!2sCaf%C3%A9+Kopi!5e0!3m2!1sen!2sus!4v1520571774772" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -115,6 +132,8 @@
           <li><i class="fab fa-react"></i></li>
           <li><i class="fab fa-angular"></i></li>
           <li><i class="fab fa-vuejs"></i></li>
+        </ul>
+        <ul style="list-style: none;">
           <li>Ruby</li>
           <li>bash</li>
           <li>zsh</li>
@@ -134,7 +153,19 @@
 
       <div class="tech-goals page-section">
         <h1>Tech Goals</h1>
-        <span>Collection of softwares/technologies that we as a group are intending to learn together in order to grow as developers. Javascript Git/Github Backend development (server setup and security and configuration) Firebase Redux/Vuex Native app development using React Native</span>
+        <div>
+          Collection of softwares/technologies that we as a group are intending to learn together in order to grow as developers.
+          <br><br>
+          <ul style="list-style: none;">
+            <li>Javascript</li>
+            <li>Git/Github collaborative development</li>
+            <li>Backend development (server setup and security and configuration)</li>
+            <li>Firebase</li>
+            <li>Redux</li>
+            <li>Vuex</li>
+            <li>Native app development using React Native</li>
+          </ul>
+        </div>
       </div>
 
       <div class="social-site-links page-section">
