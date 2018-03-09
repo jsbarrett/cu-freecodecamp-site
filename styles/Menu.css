@@ -65,7 +65,7 @@
   position: fixed;
   top: 0px;
   left: -253px;
-  height: 100%;
+  height: 100vh;
   width: 250px;
   transition: all 0.1s ease-in-out;
   box-shadow: 3px 0 2px rgba(0,0,0,0.22);

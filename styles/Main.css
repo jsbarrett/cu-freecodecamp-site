@@ -12,6 +12,7 @@ header {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
+  min-height: 475px;
 }
 
 #header-ctr {
@@ -23,6 +24,7 @@ header {
   background-color: rgba(0,0,0,0.30);
   border-bottom-right-radius: 2px;
   border-bottom-left-radius: 2px;
+  min-height: 475px;
 }
 
 #header-ctr h1 {
@@ -40,7 +42,7 @@ header {
   justify-content: space-between;
   height: 200px;
   width: 180px;
-  margin: 8vw auto 0px auto;
+  margin: 4vh auto 0px auto;
   padding: 12px;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 2px;
@@ -130,13 +132,8 @@ header {
 
 /*** Showcase Styles ***/
 #showcase-ctr {
-  height: 100vh;
-}
-
-#showcase-ctr h1 {
-  font-weight: normal;
-  text-align: center;
-  margin: 20px auto 0px auto;
+  background-color: #FAFAFA;
+  padding: 20px 0px 20px 0px;
 }
 
 #showcase-ctr span {
@@ -144,8 +141,59 @@ header {
   padding-top: 1.5px;
   border-radius: 2px;
   background-color: black;
-  width: 155px;
+  width: 220px;
   margin: 0px auto 0px auto;
+}
+
+#projects-ctr {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4vw;
+  width: 90vw;
+  max-width: 315px;
+  margin: auto;
+}
+
+#projects-ctr div {
+  height: 38vw;
+  max-height: 135px;
+  width: 41vw;
+  max-width: 144px;
+  margin: auto;
+  border-radius:2px;
+  border: 2px solid #1B5E20;
+}
+
+@media only screen and (min-width: 475px) {
+#projects-ctr {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
+  width: 95vw;
+  max-width: 580px;
+}
+
+  #projects-ctr div {
+    height: 26.5vw;
+    max-height: 158px;
+    width: 29.5vw;
+    max-width: 178px;
+  }
+}
+
+@media only screen and (min-width: 875px) {
+  #projects-ctr {
+    grid-gap: 1.5vw;
+    width: 67vw;
+    max-width: 860px;
+  }
+
+  #projects-ctr div{
+    height: 17vw;
+    max-height: 215px;
+    width: 21vw;
+    max-width: 265px;
+
+  }
 }
 
 /***********************/
@@ -153,38 +201,27 @@ header {
 
 /*** Meetings Styles ***/
   #meetings-ctr {
-    color: black;
-    background-color: #81D4FA;
-    height: 100vh;
-  }
-
-  #meetings-ctr h1 {
-    font-weight: normal;
-    text-align: center;
-    padding-top: 20px;
+    color: #FAFAFA;
+    background-color: #3F51B5;
+    padding: 20px 0px 20px 0px;
+    border-radius: 2px;
   }
 
   #meetings-ctr span {
     display: block;
     padding-top: 1.5px;
     border-radius: 2px;
-    background-color: black;
-    width: 155px;
+    background-color: #FAFAFA;
+    width: 210px;
     margin: 0px auto 0px auto;
   }
 
-  .description {
-    width: 85vw;
-    margin: 20px auto 20px auto;
-    font-size: 15px;
-  }
-
   #meeting-details {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     width: 85vw;
     margin: auto;
+    max-width: 800px;
   }
 
   .meeting {
@@ -194,11 +231,17 @@ header {
   .meeting h2 {
     font-weight: normal;
     text-align: center;
+    font-size: 21px;
   }
 
   .meeting p {
     text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+  }
 
+  #thursday-meeting {
+    margin-bottom: 10px;
   }
 
   @media only screen and (min-width: 400px) {
@@ -208,4 +251,137 @@ header {
     }
   }
 
+  @media only screen and (min-width: 475px) {
+    #thursday-meeting {
+      margin: 0px;
+    }
+
+    #meetings-ctr span {
+      width: 235px;
+    }
+
+    .meeting h2 {
+      font-size: 24px;
+    }
+
+    .meeting p {
+      font-size: 21px;
+    }
+  }
+
+  @media only screen and (min-width: 875px) {
+    #meetings-ctr span {
+      width: 250px;
+    }
+
+    .meeting h2 {
+      font-size: 26px;
+    }
+
+    .meeting p {
+      font-sized: 22px;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    #meetings-ctr span {
+      width: 280px;
+    }
+
+    .meeting h2 {
+      font-size: 28px;
+    }
+
+    .meeting p {
+      font-size: 24px;
+    }
+  }
+
 /***************************/
+
+/*** Experience Styles ***/
+#experience-ctr {
+  height: 300px;
+  padding: 20px 0px 20px 0px;
+}
+
+#experience-ctr span {
+  display: block;
+  padding-top: 1.5px;
+  border-radius: 2px;
+  background-color: black;
+  width: 220px;
+  margin: 0px auto 0px auto;
+}
+/*************************/
+
+/*** Goals Styles ***/
+#goals-ctr {
+  color:#FAFAFA;
+  height: 300px;
+  padding: 20px 0px 20px 0px;
+  border-radius: 2px;
+  background-color: #F4511E; /*#FFC107;*/
+}
+
+#goals-ctr span {
+  display: block;
+  padding-top: 1.5px;
+  border-radius: 2px;
+  background-color: #FAFAFA;
+  width: 220px;
+  margin: 0px auto 0px auto;
+}
+
+/********************/
+
+/*** Footer Styles ***/
+footer {
+  height: 300px;
+}
+/*********************/
+
+.label {
+  font-weight: normal;
+  text-align: center;
+  font-size: 30px;
+}
+
+.description {
+  width: 85vw;
+  margin: 20px auto 20px auto;
+  font-size: 15px;
+  max-width: 800px;
+}
+
+@media only screen and (min-width: 475px) {
+
+.label {
+  font-size: 34px;
+}
+
+  .description {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 875px) {
+  .label {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .label {
+    font-size: 40px;
+  }
+
+  .description {
+    font-size: 22px;
+  }
+}
