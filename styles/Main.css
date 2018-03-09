@@ -240,6 +240,15 @@ header {
     font-size: 16px;
   }
 
+  .meeting iframe {
+
+    width: 85vw;
+    max-width: 350px;
+    height: 75vw;
+    max-height: 250px;
+    border-radius: 2px;
+  }
+
   #thursday-meeting {
     margin-bottom: 10px;
   }
@@ -248,6 +257,12 @@ header {
     #meeting-details {
       flex-direction: row;
       justify-content: space-around;
+    }
+
+    .meeting iframe {
+      margin: auto;
+      width: 40vw;
+      height: 30vw;
     }
   }
 
@@ -279,7 +294,7 @@ header {
     }
 
     .meeting p {
-      font-sized: 22px;
+      font-size: 22px;
     }
   }
 
