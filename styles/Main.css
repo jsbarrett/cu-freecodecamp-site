@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*** Header Styles ***/
+header {
+  background: url('../assets/images/group-image-2.jpeg');
+  background-size: 200vw 170vw;
+  background-position: 38% 0%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+#header-ctr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0,0.30);
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+#header-ctr h1 {
+  color: rgba(255,255,255,0.8);
+  font-weight: normal;
+  width: 290px;
+  margin: 0px auto 0px auto;
+  text-align: center;
+  /*border: 1px solid white;*/
+}
+
+#cta-ctr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  width: 180px;
+  margin: 8vw auto 0px auto;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 2px;
+}
+
+.cta-label {
+  font-size: 19px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.cta-btn {
+  margin: auto;
+  display: block;
+  color: white;
+  padding: 8px 12px;
+  font-size: 19px;
+  border: none;
+  border-radius: 2px;
+}
+
+#join-us-btn {
+  background-color: #1B5E20;
+}
+
+#facebook-btn {
+  background-color: #0091EA;
+}
+
+@media only screen and (min-width: 475px) {
+
+  #header-ctr h1 {
+    width: 475px;
+    font-size: 44px;
+  }
+
+  #cta-ctr {
+    height: 260px;
+    width: 240px;
+
+  }
+
+  .cta-label {
+    font-size: 26px;
+  }
+
+  .cta-btn {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 875px) {
+  #header-ctr {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  #header-ctr h1 {
+    padding: 0px;
+    font-size: 52px;
+    margin: auto;
+    /*padding-top: 160px;*/
+    /*height: 120px;*/
+  }
+  #cta-ctr {
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 575px) {
+  header {
+    background-size: 100% 100%;
+    background-position: center center;
+
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #header-ctr h1 {
+    font-size: 62px;
+    /*padding-top: 218px;
+    /*height: 62px;*/
+    width: 700px;
+  }
+}
+/*********************/
+
+/*** Showcase Styles ***/
+#showcase-ctr {
+  height: 100vh;
+}
+
+#showcase-ctr h1 {
+  font-weight: normal;
+  text-align: center;
+  margin: 20px auto 0px auto;
+}
+
+#showcase-ctr span {
+  display: block;
+  padding-top: 1.5px;
+  border-radius: 2px;
+  background-color: black;
+  width: 155px;
+  margin: 0px auto 0px auto;
+}
+
+/***********************/
+
+
+/*** Meetings Styles ***/
+  #meetings-ctr {
+    color: black;
+    background-color: #81D4FA;
+    height: 100vh;
+  }
+
+  #meetings-ctr h1 {
+    font-weight: normal;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  #meetings-ctr span {
+    display: block;
+    padding-top: 1.5px;
+    border-radius: 2px;
+    background-color: black;
+    width: 155px;
+    margin: 0px auto 0px auto;
+  }
+
+  .description {
+    width: 85vw;
+    margin: 20px auto 20px auto;
+    font-size: 15px;
+  }
+
+  #meeting-details {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    margin: auto;
+  }
+
+  .meeting {
+
+  }
+
+  .meeting h2 {
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .meeting p {
+    text-align: center;
+
+  }
+
+  @media only screen and (min-width: 400px) {
+    #meeting-details {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+
+/***************************/
