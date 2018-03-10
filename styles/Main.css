@@ -255,7 +255,7 @@ header {
   }
 
   .meeting iframe {
-
+    margin-top: 5px;
     width: 85vw;
     max-width: 350px;
     height: 75vw;
@@ -274,7 +274,6 @@ header {
     }
 
     .meeting iframe {
-      margin: auto;
       width: 40vw;
       height: 30vw;
     }
@@ -333,6 +332,7 @@ header {
   padding: 20px 0px 20px 0px;
 }
 
+/*
 #experience-ctr span {
   display: block;
   padding-top: 1.5px;
@@ -341,26 +341,79 @@ header {
   width: 230px;
   margin: 0px auto 0px auto;
 }
+*/
+
+#experience-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  width: 100vw;
+}
+
+#experience-list li {
+  font-size: 17px;
+  width: 85px;
+  text-align: center;
+  margin-bottom: 12px;
+
+}
+
+#experience-list li span {
+  font-size: 70px;
+}
 
 .tech-experience__list {
-  max-width: 800px;
+  width: 95vw;
+  max-width: 900px;
   margin: auto;
-      list-style: none;
-      font-size: 4em;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
+  list-style: none;
+  font-size: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
 
 @media only screen and (min-width: 475px) {
   #experience-ctr span {
     width: 260px;
+  }
+
+  #experience-list {
+    width: 85vw;
+    max-width: 700px;
+  }
+
+  #experience-list li {
+    font-size: 19px;
+    width: 120px;
+    margin-bottom: 18px;
+  }
+
+  #experience-list li span {
+    font-size: 75px;
   }
 }
 
 @media only screen and (min-width: 875px) {
   #experience-ctr span {
     width: 305px;
+  }
+
+  #experience-list {
+    width: 85vw;
+    max-width: 900px;
+  }
+
+  #experience-list li {
+    font-size: 21px;
+    width: 160px;
+    margin-bottom: 22px;
+  }
+
+  #experience-list li span {
+    font-size: 90px;
   }
 }
 
