@@ -141,7 +141,7 @@ header {
   padding-top: 1.5px;
   border-radius: 2px;
   background-color: black;
-  width: 220px;
+  width: 250px;
   margin: 0px auto 0px auto;
 }
 
@@ -178,6 +178,10 @@ header {
     width: 29.5vw;
     max-width: 178px;
   }
+
+  #showcase-ctr span {
+    width: 285px;
+  }
 }
 
 @media only screen and (min-width: 875px) {
@@ -192,7 +196,17 @@ header {
     max-height: 215px;
     width: 21vw;
     max-width: 265px;
+  }
 
+  #showcase-ctr span {
+    width: 300px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  #showcase-ctr span {
+    width: 330px;
   }
 }
 
@@ -314,9 +328,8 @@ header {
 
 /***************************/
 
-/*** Experience Styles ***/
+/*** Tech Experience Styles ***/
 #experience-ctr {
-  height: 300px;
   padding: 20px 0px 20px 0px;
 }
 
@@ -325,9 +338,33 @@ header {
   padding-top: 1.5px;
   border-radius: 2px;
   background-color: black;
-  width: 220px;
+  width: 230px;
   margin: 0px auto 0px auto;
 }
+
+.tech-experience__list {
+  max-width: 800px;
+  margin: auto;
+      list-style: none;
+      font-size: 4em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+@media only screen and (min-width: 475px) {
+  #experience-ctr span {
+    width: 260px;
+  }
+}
+
+@media only screen and (min-width: 875px) {
+  #experience-ctr span {
+    width: 305px;
+  }
+}
+
+
 /*************************/
 
 /*** Goals Styles ***/
