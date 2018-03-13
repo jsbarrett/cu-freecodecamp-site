@@ -1,6 +1,12 @@
 # cu-freecodecamp-site
 A simple site to promote and showcase the projects that we do in the Champaign-Urbana FreeCodeCamp group.
 
+## TODO
+- Make more responsive (mobile friendly)
+- Fix/update nav
+- Find icons for rest of technologies
+- Create footer for the social icons/links to exist in
+
 ## Content
 [find content in the content.md file](content.md)
 
