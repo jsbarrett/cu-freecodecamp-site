@@ -1,0 +1,554 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*** Header Styles ***/
+header {
+  background: url('../assets/images/group-image-2.jpeg');
+  background-size: 200vw 170vw;
+  background-position: 38% 0%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  min-height: 475px;
+}
+
+#header-ctr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0,0.30);
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  min-height: 475px;
+}
+
+#header-ctr h1 {
+  color: rgba(255,255,255,0.8);
+  font-weight: normal;
+  width: 290px;
+  margin: 0px auto 0px auto;
+  text-align: center;
+  /*border: 1px solid white;*/
+}
+
+#cta-ctr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  width: 180px;
+  margin: 4vh auto 0px auto;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 2px;
+}
+
+.cta-label {
+  font-size: 19px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.cta-btn {
+  margin: auto;
+  display: block;
+  color: white;
+  padding: 8px 12px;
+  font-size: 19px;
+  border: none;
+  border-radius: 2px;
+}
+
+#join-us-btn {
+  background-color: #1B5E20;
+}
+
+#facebook-btn {
+  background-color: #0091EA;
+}
+
+@media only screen and (min-width: 475px) {
+
+  #header-ctr h1 {
+    width: 475px;
+    font-size: 44px;
+  }
+
+  #cta-ctr {
+    height: 260px;
+    width: 240px;
+
+  }
+
+  .cta-label {
+    font-size: 26px;
+  }
+
+  .cta-btn {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 875px) {
+  #header-ctr {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  #header-ctr h1 {
+    padding: 0px;
+    font-size: 52px;
+    margin: auto;
+    /*padding-top: 160px;*/
+    /*height: 120px;*/
+  }
+  #cta-ctr {
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 575px) {
+  header {
+    background-size: 100% 100%;
+    background-position: center center;
+
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #header-ctr h1 {
+    font-size: 62px;
+    /*padding-top: 218px;
+    /*height: 62px;*/
+    width: 700px;
+  }
+}
+/*********************/
+
+/*** Showcase Styles ***/
+#showcase-ctr {
+  background-color: #FAFAFA;
+  padding: 20px 0px 20px 0px;
+}
+
+#showcase-ctr span {
+  display: block;
+  padding-top: 1.5px;
+  border-radius: 2px;
+  background-color: black;
+  width: 250px;
+  margin: 0px auto 0px auto;
+}
+
+#projects-ctr {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4vw;
+  width: 90vw;
+  max-width: 315px;
+  margin: auto;
+}
+
+#projects-ctr div {
+  height: 38vw;
+  max-height: 135px;
+  width: 41vw;
+  max-width: 144px;
+  margin: auto;
+  border-radius:2px;
+  border: 2px solid #1B5E20;
+}
+
+@media only screen and (min-width: 475px) {
+#projects-ctr {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
+  width: 95vw;
+  max-width: 580px;
+}
+
+  #projects-ctr div {
+    height: 26.5vw;
+    max-height: 158px;
+    width: 29.5vw;
+    max-width: 178px;
+  }
+
+  #showcase-ctr span {
+    width: 285px;
+  }
+}
+
+@media only screen and (min-width: 875px) {
+  #projects-ctr {
+    grid-gap: 1.5vw;
+    width: 67vw;
+    max-width: 860px;
+  }
+
+  #projects-ctr div{
+    height: 17vw;
+    max-height: 215px;
+    width: 21vw;
+    max-width: 265px;
+  }
+
+  #showcase-ctr span {
+    width: 300px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  #showcase-ctr span {
+    width: 330px;
+  }
+}
+
+/***********************/
+
+
+/*** Meetings Styles ***/
+  #meetings-ctr {
+    color: #FAFAFA;
+    background-color: #3F51B5;
+    padding: 20px 0px 20px 0px;
+    border-radius: 2px;
+  }
+
+  #meetings-ctr span {
+    display: block;
+    padding-top: 1.5px;
+    border-radius: 2px;
+    background-color: #FAFAFA;
+    width: 210px;
+    margin: 0px auto 0px auto;
+  }
+
+  #meeting-details {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    margin: auto;
+    max-width: 800px;
+  }
+
+  .meeting {
+
+  }
+
+  .meeting h2 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .meeting p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+  .meeting iframe {
+    margin-top: 5px;
+    width: 85vw;
+    max-width: 350px;
+    height: 75vw;
+    max-height: 250px;
+    border-radius: 2px;
+  }
+
+  #thursday-meeting {
+    margin-bottom: 20px;
+  }
+
+  @media only screen and (min-width: 400px) {
+    #meeting-details {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .meeting iframe {
+      width: 40vw;
+      height: 30vw;
+    }
+  }
+
+  @media only screen and (min-width: 475px) {
+    #thursday-meeting {
+      margin: 0px;
+    }
+
+    #meetings-ctr span {
+      width: 235px;
+    }
+
+    .meeting h2 {
+      font-size: 24px;
+    }
+
+    .meeting p {
+      font-size: 21px;
+    }
+  }
+
+  @media only screen and (min-width: 875px) {
+    #meetings-ctr span {
+      width: 250px;
+    }
+
+    .meeting h2 {
+      font-size: 26px;
+    }
+
+    .meeting p {
+      font-size: 22px;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    #meetings-ctr span {
+      width: 280px;
+    }
+
+    .meeting h2 {
+      font-size: 28px;
+    }
+
+    .meeting p {
+      font-size: 24px;
+    }
+  }
+
+/***************************/
+
+/*** Tech Experience Styles ***/
+#experience-ctr {
+  padding: 20px 0px 20px 0px;
+}
+
+/*
+#experience-ctr span {
+  display: block;
+  padding-top: 1.5px;
+  border-radius: 2px;
+  background-color: black;
+  width: 230px;
+  margin: 0px auto 0px auto;
+}
+*/
+
+#experience-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  width: 100vw;
+}
+
+#experience-list li {
+  font-size: 17px;
+  width: 85px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+#experience-list li span {
+  font-size: 70px;
+}
+
+#experience-list li img {
+  width: 100px;
+  height: 80px;
+}
+
+#other-experience {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  border: 1px solid black;
+  margin: 0px auto 0px auto;
+  width: 85vw;
+  height: 230px;
+  font-size: 17px;
+  max-width: 800px;
+  padding: 0px 0px;
+}
+
+#other-experience li {
+  margin: 0px auto 10px auto;
+}
+
+.tech-experience__list {
+  width: 95vw;
+  max-width: 900px;
+  margin: auto;
+  list-style: none;
+  font-size: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+
+  .grayscale {
+    filter: grayscale(100%);
+  }
+
+@media only screen and (min-width: 475px) {
+  #experience-ctr span {
+    width: 260px;
+  }
+
+  #experience-list {
+    width: 85vw;
+    max-width: 700px;
+  }
+
+  #experience-list li {
+    font-size: 19px;
+    width: 120px;
+    margin-bottom: 18px;
+  }
+
+  #experience-list li span {
+    font-size: 75px;
+  }
+
+  #experience-list li img {
+    width: 110px;
+    height: 85px;
+  }
+}
+
+@media only screen and (min-width: 875px) {
+  #experience-ctr span {
+    width: 305px;
+  }
+
+  #experience-list {
+    width: 85vw;
+    max-width: 900px;
+  }
+
+  #experience-list li {
+    font-size: 21px;
+    width: 160px;
+    margin-bottom: 22px;
+  }
+
+  #experience-list li span {
+    font-size: 90px;
+  }
+
+  #experience-list li img {
+    width: 130px;
+    height: 105px;
+  }
+}
+
+
+/*************************/
+
+/*** Goals Styles ***/
+#goals-ctr {
+  color:#FAFAFA;
+  padding: 20px 0px 20px 0px;
+  border-radius: 2px;
+  background-color: #F4511E; /*#FFC107;*/
+}
+
+#goals-ctr span {
+  display: block;
+  padding-top: 1.5px;
+  border-radius: 2px;
+  background-color: #FAFAFA;
+  width: 220px;
+  margin: 0px auto 0px auto;
+}
+
+#goals-list {
+  font-size: 17px;
+  width: 85vw;
+  margin: auto;
+  max-width: 800px;
+  list-style-type: none;
+  text-align: center;
+}
+
+#goals-list li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 475px) {
+  #goals-list li {
+    font-size: 19px;
+  }
+
+}
+
+@media only screen and (min-width: 875px) {
+  #goals-list li {
+    font-size: 21px;
+  }
+}
+
+/********************/
+
+/*** Footer Styles ***/
+footer {
+  height: 300px;
+}
+/*********************/
+
+.label {
+  font-weight: normal;
+  text-align: center;
+  font-size: 30px;
+}
+
+.description {
+  width: 85vw;
+  margin: 20px auto 20px auto;
+  font-size: 15px;
+  max-width: 800px;
+}
+
+@media only screen and (min-width: 475px) {
+
+.label {
+  font-size: 34px;
+}
+
+  .description {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 875px) {
+  .label {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .label {
+    font-size: 40px;
+  }
+
+  .description {
+    font-size: 22px;
+  }
+}
