@@ -264,7 +264,7 @@ header {
   }
 
   #thursday-meeting {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   @media only screen and (min-width: 400px) {
@@ -357,11 +357,34 @@ header {
   width: 85px;
   text-align: center;
   margin-bottom: 12px;
-
 }
 
 #experience-list li span {
   font-size: 70px;
+}
+
+#experience-list li img {
+  width: 100px;
+  height: 80px;
+}
+
+#other-experience {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  border: 1px solid black;
+  margin: 0px auto 0px auto;
+  width: 85vw;
+  height: 230px;
+  font-size: 17px;
+  max-width: 800px;
+  padding: 0px 0px;
+}
+
+#other-experience li {
+  margin: 0px auto 10px auto;
 }
 
 .tech-experience__list {
@@ -373,6 +396,10 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  }
+
+  .grayscale {
+    filter: grayscale(100%);
   }
 
 @media only screen and (min-width: 475px) {
@@ -393,6 +420,11 @@ header {
 
   #experience-list li span {
     font-size: 75px;
+  }
+
+  #experience-list li img {
+    width: 110px;
+    height: 85px;
   }
 }
 
@@ -415,6 +447,11 @@ header {
   #experience-list li span {
     font-size: 90px;
   }
+
+  #experience-list li img {
+    width: 130px;
+    height: 105px;
+  }
 }
 
 
@@ -423,7 +460,6 @@ header {
 /*** Goals Styles ***/
 #goals-ctr {
   color:#FAFAFA;
-  height: 300px;
   padding: 20px 0px 20px 0px;
   border-radius: 2px;
   background-color: #F4511E; /*#FFC107;*/
@@ -436,6 +472,32 @@ header {
   background-color: #FAFAFA;
   width: 220px;
   margin: 0px auto 0px auto;
+}
+
+#goals-list {
+  font-size: 17px;
+  width: 85vw;
+  margin: auto;
+  max-width: 800px;
+  list-style-type: none;
+  text-align: center;
+}
+
+#goals-list li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 475px) {
+  #goals-list li {
+    font-size: 19px;
+  }
+
+}
+
+@media only screen and (min-width: 875px) {
+  #goals-list li {
+    font-size: 21px;
+  }
 }
 
 /********************/

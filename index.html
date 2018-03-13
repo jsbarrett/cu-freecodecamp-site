@@ -7,6 +7,7 @@
     <link rel='stylesheet' href='styles/Main.css' />
     <link rel='stylesheet' href='styles/Menu.css' />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   </head>
 
@@ -112,7 +113,7 @@
         <h1 class='label'>Meeting Times</h1>
         <!--<span></span>-->
         <p class='description'>
-          We are currently meeting two times a week. The first 10-15 minutes we talk about group projects that we are working on as part of this group, and then it opens up to be more free and open for people to talk and share and ask questions or ask for help.
+          We are currently meeting two times a week. The first 10 - 15 minutes we talk about group projects that we are working on as part of this group, and then it opens up to be more free and open for people to talk and share and ask questions or ask for help.
         </p>
 
         <div id='meeting-details'>
@@ -126,7 +127,7 @@
             <p>200 W Greent Street<br />Champaign, IL 61820</p>
           </div>
 
-          <div class='meeting'>
+          <div id='saturday-meeting' class='meeting'>
             <h2>Saturday</h2>
             <p>10:00am - 12:00pm</p>
             <p>Cafe Kopi</p>
@@ -160,7 +161,22 @@
           <li><span><i class="fab fa-react"></i></span><br />React</li>
           <li><span><i class="fab fa-angular"></i></span><br />Angular</li>
           <li><span><i class="fab fa-vuejs"></i></span><br />VueJS</li>
-
+          <li><span><i class="devicon-ruby-plain"></i></span><br />Ruby</li>
+          <li><span><i class="devicon-vim-plain"></i></span><br />Vim/NeoVim</li>
+          <li><span><i class="devicon-apache-line"></i></span><br />Apache</li>
+          <li><span><i class="devicon-mysql-plain-wordmark"></i></span><br />MySQL</li>
+          <li><span><i class="devicon-express-original"></i></span><br />Express</li>
+          <li><span><i class="devicon-nginx-original"></i></span><br />NGINX</li>
+          <li><span><i class="devicon-postgresql-plain"></i></span><br />PostgreSQL</li>
+          <li><span><i class="devicon-jquery-plain"></i></span><br />JQuery</li>
+          <li><img class='grayscale' src='https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg'>SQLite</img></li>
+          <li><img class='grayscale'
+             src='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxz%0D%0AdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxu%0D%0AczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6%0D%0ALy93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0%0D%0AcDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAw%0D%0AL3N2ZyIKICAgdmVyc2lvbj0iMS4xIgogICBpZD0ic3ZnNDM1MSIKICAgcHJlc2VydmVBc3BlY3RS%0D%0AYXRpbz0ieE1pbllNaW4gbWVldCIKICAgdmlld0JveD0iMCAwIDI1NS40MTkwNyAyNTcuOTcwOTki%0D%0ACiAgIGhlaWdodD0iMjA2MC40NzEyIgogICB3aWR0aD0iMjA0MC4zNTk0Ij4KICA8bWV0YWRhdGEK%0D%0AICAgICBpZD0ibWV0YWRhdGE0NDAzIj4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAg%0D%0AICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpm%0D%0Ab3JtYXQ+CiAgICAgICAgPGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9w%0D%0AdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPgogICAgICAgIDxkYzp0aXRsZT48L2Rj%0D%0AOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8%0D%0AZGVmcwogICAgIGlkPSJkZWZzNDQwMSIgLz4KICA8ZwogICAgIGlkPSJnNDQwNSI+CiAgICA8cGF0%0D%0AaAogICAgICAgZD0ibSAyNTUuMjgsMTguNTAxIGMgLTEuODQyLC0xLjUxIC0xNi4zMTksLTkuMjc0%0D%0AIC0xNi4zMTksLTkuMjc0IGwgLTE1LjQ0Nyw4Ljk3NSAtMC4wMDksLTAuMDA1IDE1LjQ0OCwtOC45%0D%0ANzQgLTE1LjQ0MywtOS4yMDMgLTAuMDA1LDE4LjE3NyAtMTYuMTEsLTkuMDE4IGMgMCwwIC0xMy4x%0D%0AOCw3LjcwNCAtMTkuNTc4LDExLjM5NyAtOC4wNTUsNC42NDcgLTI3LjgxLDE2LjQxIC0yNy44MSwx%0D%0ANi40MSBsIDAsMTcuMzY5IC0xNi4yNzQsNDIuNCAwLDIzLjAyMyAtMTEuNDIyLDYuNjY2IC00LjU0%0D%0ANSwxMS44OSBMIDk1Ljc0LDU1LjI0OCA5NS43NDUsMzcuMDI3IDMxLjkxNCwwIDAuMDMyLDE4LjQ1%0D%0ANSAwLDE4LjQ0OSBsIDAsMTguNzc2IDE5Ljg4NCw0Ny44OTEgMTIuMDgzLDcuMTE3IDAuMDEsMjEu%0D%0AODQgNDcuOTAxLDExNi4zNDQgNDcuODcyLDI3LjM5NiAwLDAuMTU4IDQ3LjgxLC0yNy42NjYgNzku%0D%0AODkzLC0xOTMuNDYyIC0wLjE3MywtMTguMzQyIgogICAgICAgaWQ9InBhdGg0MzUzIgogICAgICAg%0D%0Ac3R5bGU9ImZpbGw6IzMxODViOCIgLz4KICAgIDxwYXRoCiAgICAgICBkPSJNIDEyNy43ODYsMjU3%0D%0ALjgzMyA3OS44NzgsMjMwLjQxNyAzMS45NzgsMTE0LjA3MyAzMS45NjcsOTIuMjMzIDE5Ljg4NCw4%0D%0ANS4xMTYgMCwzNy4yMjYgMCwxOC40NDggbCAxNS43MzMsOS4xNzMgMCwxOC40ODQgMTYuMjYyLDku%0D%0ANDM3IDAuMDAyLC0xOC41OTIgMzEuNzcyLDE4LjM4MyAxLjUzMSwxOC4xOTkgNDYuMTksMTE5Ljg5%0D%0AMiAzMi4wOTgsMTguNjk4IDAsMzYuNjY4IC0xNS44NDcsLTkuMzIyIDAuMDQ1LDE4LjM2NSIKICAg%0D%0AICAgIGlkPSJwYXRoNDM1NSIKICAgICAgIHN0eWxlPSJmaWxsOiMzMTg1YjgiIC8+CiAgICA8cGF0%0D%0AaAogICAgICAgZD0iTSA5NS43MzksNTUuMjQ5IDEyNy43NjYsMTM4LjMzMyAxMjcuNywxODQuMSAx%0D%0AMTEuNDY3LDE5My4zMzMgNjUuMyw3My4zOTkgNjMuNzcsNTUuMzM0IDk1Ljc0NSwzNy4wMjggOTUu%0D%0ANzQsNTUuMjQ4IG0gLTgwLjAwNywtMjcuNjI2IDAsMTguNDgzIDE2LjI2NCwtOS4xNTUgLTE2LjI2%0D%0ANCwtOS4zMyIKICAgICAgIGlkPSJwYXRoNDM1NyIKICAgICAgIHN0eWxlPSJmaWxsOiM2MWE1Y2Ui%0D%0AIC8+CiAgICA8cGF0aAogICAgICAgZD0ibSAzMS45OTUsNTUuNTQzIDAuMDAyLC0xOC41OTIgLTE2%0D%0ALjI2NCw5LjE1NSAxNi4yNjIsOS40MzciCiAgICAgICBpZD0icGF0aDQzNTkiCiAgICAgICBzdHls%0D%0AZT0iZmlsbDojZWFlOWU2IiAvPgogICAgPHBhdGgKICAgICAgIGQ9Im0gMTI3LjcsMTg0LjEgMTYu%0D%0AMDEsOS4xNjEgMTcuODI3LC00NC43NTcgMTMuNzI4LDguMTY5IDAsLTQyLjg5NSA0LjM4LC0xMC4z%0D%0ANTcgMTEuNjg4LDYuODQ1IDAsLTE4LjEzMyAtMTUuOTExLC05LjI0NSAxNiwtOS4yODggLTE1Ljcz%0D%0AMywtOS4wNjcgLTAuMDQyLC0xOC40MyAtMTUuNjQsLTkuMTE4IDAsMTcuMzcgLTE2LjI3NCw0Mi40%0D%0AIDAsMjMuMDIzIC0xMS40MjIsNi42NjYgLTQuNTQ1LDExLjg5IC0wLjA2Niw0NS43NjYiCiAgICAg%0D%0AICBpZD0icGF0aDQzNjEiCiAgICAgICBzdHlsZT0iZmlsbDojMzE4NWI4IiAvPgogICAgPHBhdGgK%0D%0AICAgICAgIGQ9Im0gMTI3LjQ4LDIwMi44MzUgMTYuMTA4LDkuMjg3IC0wLjA4LDM2LjY3NiAzMi4w%0D%0ANTEsLTE4LjQ5MyA3OS44OTQsLTE5My40NjIgLTAuMTczLC0xOC4zNDIgLTQ3Ljg4NiwyNy42MDIg%0D%0AMCwzNi44MjUgLTE2LjA2LDkuMjA1IDAsMTguMTMzIC0xMS42OSwtNi44NDUgLTQuMzc5LDEwLjM1%0D%0ANyAwLDQyLjgwNSAtMjIuMjQ0LDEzLjA4IC05LjMxLDIzLjU5OCAtMTYuMjMsOS41NzUiCiAgICAg%0D%0AICBpZD0icGF0aDQzNjMiCiAgICAgICBzdHlsZT0iZmlsbDojNjFhNWNlIiAvPgogICAgPHBhdGgK%0D%0AICAgICAgIGQ9Im0gNjMuNjY3LDczLjczMyAxNi4wNjYsLTkuMzMzIDAsMTguNDY1IC0xNi4wNjYs%0D%0ALTkuMTMzIgogICAgICAgaWQ9InBhdGg0MzY1IgogICAgICAgc3R5bGU9ImZpbGw6I2VhZTllNiIg%0D%0ALz4KICAgIDxwYXRoCiAgICAgICBkPSJtIDc5LjczMyw4Mi44NjUgMTUuOTMzLDkuMDAxIDAsLTE4%0D%0ALjEzMyAtMTUuOTMzLC05LjMzMyAwLDE4LjQ2NSIKICAgICAgIGlkPSJwYXRoNDM2NyIKICAgICAg%0D%0AIHN0eWxlPSJmaWxsOiMzMTg1YjgiIC8+CiAgICA8cGF0aAogICAgICAgZD0ibSA0Ny44NDUsMTE5%0D%0ALjUzMSAwLDE4LjYgMTYuMDg3LC05LjI1NyAtMTYuMDg3LC05LjM0MyIKICAgICAgIGlkPSJwYXRo%0D%0ANDM2OSIKICAgICAgIHN0eWxlPSJmaWxsOiM2MWE1Y2UiIC8+CiAgICA8cGF0aAogICAgICAgZD0i%0D%0AbSA3OS45ODgsMTM4LjIxNyAtMTYuMTQzLDkuNCAtMTYsLTkuNDg2IDE2LjA4NywtOS4yNTcgMTYu%0D%0AMDU2LDkuMzQzIgogICAgICAgaWQ9InBhdGg0MzcxIgogICAgICAgc3R5bGU9ImZpbGw6I2VhZTll%0D%0ANiIgLz4KICAgIDxwYXRoCiAgICAgICBkPSJtIDc5Ljc3LDE5My40NjggMCwxOC43NTggMTYuMTcs%0D%0ALTkuMzUgLTE2LjE3LC05LjQwOCIKICAgICAgIGlkPSJwYXRoNDM3MyIKICAgICAgIHN0eWxlPSJm%0D%0AaWxsOiM2MWE1Y2UiIC8+CiAgICA8cGF0aAogICAgICAgZD0ibSAxMTEuNTIyLDIzMC4yMTggMTYu%0D%0AMjg3LDkuNDY3IDAuMDU5LC0xOS4wNTIgLTE2LjM0Niw5LjU4NSIKICAgICAgIGlkPSJwYXRoNDM3%0D%0ANSIKICAgICAgIHN0eWxlPSJmaWxsOiNlYWU5ZTYiIC8+CiAgICA8cGF0aAogICAgICAgZD0ibSAx%0D%0AMjcuNzUsMjU3Ljk3MSAwLjA2LC0xOC4yODYgMTUuNjk4LDkuMTEzIC0xNS43NTgsOS4xNzMiCiAg%0D%0AICAgICBpZD0icGF0aDQzNzciCiAgICAgICBzdHlsZT0iZmlsbDojNjFhNWNlIiAvPgogICAgPHBh%0D%0AdGgKICAgICAgIGQ9Im0gMTI3LjcsMTg0LjEgLTE2LjIzMyw5LjIzMyAxNi4wMTQsOS41MDMgMTYu%0D%0AMjMsLTkuNTc1IC0xNi4wMSwtOS4xNjEiCiAgICAgICBpZD0icGF0aDQzNzkiCiAgICAgICBzdHls%0D%0AZT0iZmlsbDojZWFlOWU2IiAvPgogICAgPHBhdGgKICAgICAgIGQ9Im0gMjA3LjM5NCw4Mi45Mjgg%0D%0AMCwtMzYuODI1IC0xNS44NTQsLTkuMDI1IDAsMTguMzQ3IC0xNS44NTEsOS4xMDggMzEuNzA1LDE4%0D%0ALjM5NSIKICAgICAgIGlkPSJwYXRoNDM4MSIKICAgICAgIHN0eWxlPSJmaWxsOiMzMTg1YjgiIC8+%0D%0ACiAgICA8cGF0aAogICAgICAgZD0ibSAxNzUuNDIyLDgyLjg4OCAxNiwtOS4yODggMTUuOTcyLDku%0D%0AMzI4IC0xNi4wNiw5LjIwNSAtMTUuOTEyLC05LjI0NSIKICAgICAgIGlkPSJwYXRoNDM4MyIKICAg%0D%0AICAgIHN0eWxlPSJmaWxsOiNlYWU5ZTYiIC8+CiAgICA8cGF0aAogICAgICAgZD0ibSAxNzUuNjg5%0D%0ALDY0LjUzMyAxNS44NTEsLTkuMTA4IDAsLTE4LjM0NyAtMTUuODkzLDkuMDI1IDAuMDQyLDE4LjQz%0D%0AIgogICAgICAgaWQ9InBhdGg0Mzg1IgogICAgICAgc3R5bGU9ImZpbGw6IzYxYTVjZSIgLz4KICAg%0D%0AIDxwYXRoCiAgICAgICBkPSJNIDIyMy41MDUsMTguMTk4IDIyMy41MSwwLjAyIDIzOC45NTMsOS4y%0D%0AMjMgMjIzLjUwNSwxOC4xOTgiCiAgICAgICBpZD0icGF0aDQzODciCiAgICAgICBzdHlsZT0iZmls%0D%0AbDojMzE4NWI4IiAvPgogICAgPHBhdGgKICAgICAgIGQ9Im0gMjU1LjI4LDE4LjUwMSAtNDcuODg2%0D%0ALDI3LjYwMiAtMTUuODU0LC05LjAyNSAtMTUuODkzLDkuMDI1IC0xNS42NCwtOS4xMTggYyAwLDAg%0D%0AMTkuNzU1LC0xMS43NjIgMjcuODEsLTE2LjQxIDYuMzk4LC0zLjY5MiAxOS41NzcsLTExLjM5NiAx%0D%0AOS41NzcsLTExLjM5NiBsIDE2LjEyLDkuMDIzIDE1LjQ0NywtOC45NzUgYyAwLDAgMTQuNDc3LDcu%0D%0ANzYzIDE2LjMxOSw5LjI3NCAtNC4zNTYsMi41NDUgMCwwIDAsMCBNIDk1Ljc0NCwzNy4wMjggNjMu%0D%0ANzY5LDU1LjMzNCAwLjAzLDE4LjQ1NSAzMS45MTUsMCA5NS43NDQsMzcuMDI4IgogICAgICAgaWQ9%0D%0AInBhdGg0Mzg5IgogICAgICAgc3R5bGU9ImZpbGw6I2VhZTllNiIgLz4KICAgIDxwYXRoCiAgICAg%0D%0AICBkPSJtIDIzOS4yMDQsNDUuNjgzIDAsLTE3LjkxNiAtMTUuNTgsOC45OSAxNS41OCw4LjkyNiBt%0D%0AIC00Ny4yMjQsODMuMjkgMTUuNTAzLC04Ljg5MyAwLDE3LjgzNyAtMTUuNTAzLC04Ljk0NCIKICAg%0D%0AICAgIGlkPSJwYXRoNDM5MSIKICAgICAgIHN0eWxlPSJmaWxsOiMzMTg1YjgiIC8+CiAgICA8cGF0%0D%0AaAogICAgICAgZD0ibSAxNTkuNTgzLDIwMi43MTMgMCwxOC40ODQgMTYuMTQ4LC05LjM0MSAtMTYu%0D%0AMTQ4LC05LjE0MyIKICAgICAgIGlkPSJwYXRoNDM5MyIKICAgICAgIHN0eWxlPSJmaWxsOiNlYWU5%0D%0AZTYiIC8+CiAgICA8cGF0aAogICAgICAgZD0ibSAxNzUuODMxLDIxMS44NTUgLTAuMTk5LC0xOC4z%0D%0AMzQgLTE2LjA1LDkuMTkyIDE2LjI1LDkuMTQzIgogICAgICAgaWQ9InBhdGg0Mzk1IgogICAgICAg%0D%0Ac3R5bGU9ImZpbGw6IzMxODViOCIgLz4KICA8L2c+Cjwvc3ZnPgo='
+>Vagrant</img></li>
+          <li><img src="https://png.icons8.com/material/100/000000/command-line.png">Bash</img></li>
+          <li><img src="https://png.icons8.com/material/100/000000/command-line.png">Zsh</img></li>
+          <li><img src="https://png.icons8.com/material/100/000000/command-line.png">Readline</img></li>
+          <li><img src="https://png.icons8.com/material/100/000000/command-line.png">Tmux</img></li>
 
           <!--
           <li>Ruby</li>
@@ -179,7 +195,16 @@
           <li>Vagrant</li>
           -->
         </ul>
-        
+
+        <!-- <ul id='other-experience'>
+
+          <li>Bash</li>
+          <li>zsh</li>
+          <li>Readline</li>
+          <li>Tmux</li>
+
+        </ul> -->
+
       </div>
       <!------------------>
 
@@ -190,6 +215,19 @@
         <p class='description'>
           Collection of softwares/technologies that we as a group are intending to learn together in order to grow as developers.
         </p>
+
+        <ul id='goals-list'>
+          <li>Vuex</li>
+          <li>JavaScript</li>
+          <li>Git/GitHub collaborative development</li>
+          <li>Backend development (server setup and security configuration)</li>
+          <li>Native app development using React Native</li>
+          <li>Firebase</li>
+          <li>redux</li>
+
+
+        </ul>
+
       </div>
       <!------------->
 
@@ -201,6 +239,7 @@
     <!--- Footer --->
     <!-------------->
     <footer>
+      <a href="https://icons8.com" target='_blank'>Icon pack by Icons8</a>
     </footer>
     <!-------------->
     <!-------------->
