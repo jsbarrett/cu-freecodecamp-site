@@ -5,6 +5,7 @@
   const IN_MENU_BTN_EL = document.getElementById('in-menu-btn');
   const COVER_EL = document.getElementById('cover');
   const MENU_CTR_EL = document.getElementById('menu-ctr');
+  const MENU_EL = document.getElementById('menu');
 
   // Show menu when menu button is clicked.
   OUT_MENU_BTN_EL.addEventListener('click',()=>{
@@ -27,4 +28,12 @@
     COVER_EL.style.pointerEvents = 'none';
     COVER_EL.style.opacity = '0';
   });
+
+  // Hide menu when user clicks a menu item.
+  MENU_EL.addEventListener('click', ()=>{
+    MENU_CTR_EL.style.transform = 'translateX(-102%)';
+    COVER_EL.style.pointerEvents = 'none';
+    COVER_EL.style.opacity = '0';
+  });
+
 })();

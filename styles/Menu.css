@@ -83,8 +83,9 @@
   flex-direction: column;
 }
 
-#menu li {
-
+#menu li a {
+  display: block;
+  text-decoration: none;
   font-size: 22px;
   color: white;
   list-style-type: none;
@@ -92,8 +93,7 @@
   padding: 12px;
 }
 
-#menu li:hover {
+#menu li a:hover {
   background-color: #FAFAFA;
   color: #1B5E20;
-  cursor: pointer;
 }
