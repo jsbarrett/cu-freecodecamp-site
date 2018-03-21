@@ -42,11 +42,11 @@
           </div>
 
           <ul id='menu'>
-            <li>Home</li>
-            <li>Meetings</li>
-            <li>Showcase</li>
-            <li>Experience</li>
-            <li>Goals</li>
+            <li><a href='#header-ctr-a'>Home</a></li>
+            <li><a href='#showcase-ctr-a'>Showcase</a></li>
+            <li><a href='#meetings-ctr-a'>Meetings</a></li>
+            <li><a href='#experience-ctr-a'>Experience</a></li>
+            <li><a href='#goals-ctr-a'>Goals</a></li>
           </ul>
 
       </div>
@@ -60,15 +60,16 @@
     <!-------------->
     <header>
 
+      <a style='top: 0px;' class='section-anchor' id='header-ctr-a'></a>
       <div id='header-ctr'>
 
         <h1>freeCodeCamp Champaign-Urbana</h1>
 
         <div id='cta-ctr'>
           <p class='cta-label'>Attend one of our bi-weekly meetings</p>
-          <button id='join-us-btn' class='cta-btn'>Join Us!</button>
+          <a href='#meetings-ctr-a' id='join-us-btn' class='cta-btn'>Join Us!</a>
           <p class='cta-label'>Join our group on Facebook</p>
-          <button id='facebook-btn' class='cta-btn'>Facebook</button>
+          <a href='https://www.facebook.com/groups/free.code.camp.champaign.urbana/' target='_blank' id='facebook-btn' class='cta-btn'>Facebook</a>
         </div>
 
 
@@ -86,6 +87,7 @@
     <main>
 
       <!--- Showcase --->
+        <a class='section-anchor' id='showcase-ctr-a'></a>
         <div id='showcase-ctr'>
           <h1 class='label'>Project Showcase</h1>
           <!--<span></span>-->
@@ -105,10 +107,13 @@
             <div></div>
           </div>
 
+
+
         </div>
       <!---------------->
 
       <!--- Meeting Times --->
+      <a class='section-anchor' id='meetings-ctr-a'></a>
       <div id='meetings-ctr'>
         <h1 class='label'>Meeting Times</h1>
         <!--<span></span>-->
@@ -141,6 +146,7 @@
       <!--------------------->
 
       <!--- Experience --->
+      <a class='section-anchor' id='experience-ctr-a'></a>
       <div id='experience-ctr'>
         <h1 class='label'>Tech Experience</h1>
       <!--<span></span>-->
@@ -149,7 +155,6 @@
         </p>
 
         <ul id='experience-list'>
-
           <li><span><i class="fab fa-html5"></i></span><br />HTML5</li>
           <li><span><i class="fab fa-css3-alt"></i></span><br />CSS3</li>
           <li><span><i class="fab fa-js"></i></span><br />JavaScript</li>
@@ -177,38 +182,12 @@
           <li><img src="https://png.icons8.com/material/100/000000/command-line.png">Zsh</img></li>
           <li><img src="https://png.icons8.com/material/100/000000/command-line.png">Readline</img></li>
           <li><img src="https://png.icons8.com/material/100/000000/command-line.png">Tmux</img></li>
-
-          <!--
-          <li>Ruby</li>
-          <li>bash</li>
-          <li>zsh</li>
-          <li>Readline</li>
-          <li>Vim/NeoVim</li>
-          <li>Tmux</li>
-          <li>Apache</li>
-          <li>MySQL</li>
-          <li>SQLite</li>
-          <li>Express.js</li>
-          <li>Nginx</li>
-          <li>PostgreSQL</li>
-          <li>jQuery</li>
-          <li>Vagrant</li>
-          -->
         </ul>
-
-        <!-- <ul id='other-experience'>
-
-          <li>Bash</li>
-          <li>zsh</li>
-          <li>Readline</li>
-          <li>Tmux</li>
-
-        </ul> -->
-
       </div>
       <!------------------>
 
       <!--- Goals --->
+      <a class='section-anchor' id='goals-ctr-a'></a>
       <div id='goals-ctr'>
         <h1 class='label'>Tech Goals</h1>
     <!--<span></span>-->
@@ -239,7 +218,13 @@
     <!--- Footer --->
     <!-------------->
     <footer>
-      <a href="https://icons8.com" target='_blank'>Icon pack by Icons8</a>
+      <div id='footer-ctr'>
+        <div></div>
+        <div><a href="https://icons8.com" target='_blank'>Icon pack by Icons8</a></div>
+        <div></div>
+      </div>
+
+
     </footer>
     <!-------------->
     <!-------------->
@@ -389,6 +374,6 @@
     <script type='text/javascript' src='scripts/Menu.js'></script>
 
     <!-- Main UI Functionality -->
-    <!--<script type='text/javascript' src='scripts/Main.js'></script>-->
+    <script type='text/javascript' src='scripts/Main.js'></script>
   </body>
 </html>
